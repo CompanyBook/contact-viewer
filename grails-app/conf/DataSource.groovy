@@ -14,7 +14,7 @@ environments {
         dataSource {
             dbCreate = "create" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost/json_viewer?useUnicode=yes&characterEncoding=UTF-8"
-            username = "root"
+            username = ""
             password = ""
         }
         hibernate {
@@ -25,7 +25,7 @@ environments {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost/json_viewer?useUnicode=yes&characterEncoding=UTF-8"
-            username = "root"
+            username = ""
             password = ""
         }
     }

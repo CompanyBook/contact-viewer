@@ -53,7 +53,7 @@
         <g:each in="${companyPages}" status="i" var="pageInstance">
             <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 
-                <td><g:link action="show"
+                <td><g:link controller="page" action="show"
                             id="${pageInstance.id}">${fieldValue(bean: pageInstance, field: "id")}</g:link></td>
 
                 <td><a href="${fieldValue(bean: pageInstance, field: "url")}" target="_blank">

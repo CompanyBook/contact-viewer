@@ -96,6 +96,7 @@ environments {
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
+grails.config.locations = ["classpath:db.properties"]
 
 // log4j configuration
 log4j = {

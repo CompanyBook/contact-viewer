@@ -1,4 +1,7 @@
 *.iml
 *.json
 *.txt
+*.DS_Store
 target/*
+*~
+db.properties
